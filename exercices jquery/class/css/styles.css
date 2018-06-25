@@ -1,0 +1,66 @@
+html {
+  width: 100%;
+}
+
+#ligne1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+#ligne2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top:30px;
+}
+#ligne3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top:30px;
+}
+#ligne4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top:30px;
+}
+#ligne5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top:30px;
+}
+
+
+.forme {
+  height: 100px;
+  width: 100px;
+  border: 1px solid purple;
+  margin-left: 40px;
+
+}
+
+.rond {
+  border-radius: 50%
+}
+
+.transformation {
+  /* équivalent à rotateZ(45deg); */
+  transform: rotate(45deg);
+}
+
+.fond {
+  background-color: purple;
+}
